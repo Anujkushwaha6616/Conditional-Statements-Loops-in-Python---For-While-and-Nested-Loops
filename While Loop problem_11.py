@@ -1,5 +1,6 @@
 '''
 W A P to count the occurence of the latter in the given word
+Expected output:S:5
 '''
 string = input("Enter a string:")
 char_to_count = input("enter charecter to count occurence:")
@@ -11,3 +12,4 @@ while index < len(string):
         count += 1
     index +=1
 print(f"{char_to_count} = {count}")    
+
