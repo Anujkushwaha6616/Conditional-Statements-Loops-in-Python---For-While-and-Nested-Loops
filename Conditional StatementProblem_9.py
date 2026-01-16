@@ -1,7 +1,5 @@
 '''
-Problem: Find Elements Appearing More Than Once
-Example
-
+Problem: Find Elements Appearing More Than Once.
 Input: [4, 5, 1, 2, 5, 3, 1]
 Output: [5, 1]
 '''
@@ -18,3 +16,4 @@ def find_duplicates(arr):
     return dup
 
 print(find_duplicates([4, 5, 1, 2, 5, 3, 1]))
+
