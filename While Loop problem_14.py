@@ -1,10 +1,5 @@
 '''
 Problem: Find the Sum of Digits Until the Number Becomes Single Digit
-
-(Repeated sum → digital root style)
-
-Example
-
 Input: 987
 Output: 6
 '''
@@ -18,3 +13,4 @@ def digit_sum_until_one(n):
     return n
 
 print(digit_sum_until_one(987))
+
