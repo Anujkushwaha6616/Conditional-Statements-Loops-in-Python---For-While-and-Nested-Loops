@@ -1,6 +1,5 @@
 '''
 Given an array, count how many elements are strictly greater than every element before them.
-
 Input: [3, 4, 2, 7, 5, 9]
 Output: 4
 '''
@@ -16,3 +15,4 @@ def count_greater_previous(arr):
     return count
 
 print(count_greater_previous([3, 4, 2, 7, 5, 9]))
+
