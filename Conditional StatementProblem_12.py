@@ -1,5 +1,18 @@
 '''
+Given an array of integers and a number K, count how many unique quadruplets (i, j, m, n) exist such that:
 
+arr[i] + arr[j] + arr[m] + arr[n] = K
+
+
+Use 4 nested loops (pure brute force, advanced-level).
+
+Example
+
+Input:
+arr = [1, 0, -1, 0, -2, 2], K = 0
+
+Output:
+3
 '''
 def count_quadruplets(arr, K):
     n = len(arr)
@@ -18,3 +31,4 @@ def count_quadruplets(arr, K):
 arr = [1, 0, -1, 0, -2, 2]
 K = 0
 print(count_quadruplets(arr, K))  # Output: 3
+
