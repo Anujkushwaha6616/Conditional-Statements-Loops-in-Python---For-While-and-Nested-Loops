@@ -1,11 +1,9 @@
 '''
-Problem :
-Count the number of "special pairs" (i, j) in an array such that:
+Problem : Count the number of "special pairs" (i, j) in an array such that:
 i < j
 arr[j] - arr[i] = j - i
 Dono condition sahi hon tabhi pair special maana jaayega.
-Input:
-arr = [3, 4, 6, 7, 9]
+Input: arr = [3, 4, 6, 7, 9]
 Output: 2
 '''
 def count_special_pairs(arr):
@@ -23,5 +21,6 @@ def count_special_pairs(arr):
 # Example
 arr = [3, 4, 6, 7, 9]
 print(count_special_pairs(arr))  # Output: 2
+
 
 
