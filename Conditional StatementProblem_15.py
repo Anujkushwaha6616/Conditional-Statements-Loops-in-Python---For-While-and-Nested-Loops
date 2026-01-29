@@ -1,14 +1,12 @@
 '''
-Problem
-
+Problem:
 Given a number, perform steps:
 
 If number is even → divide by 2
 
 If number is odd → subtract 1
 Count how many steps are required to reach 1.
-
-Example
+Example:
 Input:  n = 14
 Output: 5
 Explanation:
@@ -28,4 +26,5 @@ def steps_to_one(n):
 
 
 print(steps_to_one(14))
+
 
