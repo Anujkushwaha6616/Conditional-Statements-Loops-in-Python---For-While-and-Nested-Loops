@@ -1,10 +1,8 @@
 '''
-Problem
-
+Problem:
 Given a number, reverse its digits only until you encounter the first even digit.
 Return the partially reversed number.
-
-Example
+Example:
 Input:  n = 75319
 Output: 913 
 '''
@@ -28,4 +26,5 @@ def reverse_until_even(n):
 
 
 print(reverse_until_even(75319))
+
 
