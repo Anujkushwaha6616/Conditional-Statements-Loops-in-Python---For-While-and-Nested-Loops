@@ -1,5 +1,6 @@
 '''
-Problem: Find the Sum of Digits Until the Number Becomes Single Digit
+Problem: 
+Find the Sum of Digits Until the Number Becomes Single Digit
 Input: 987
 Output: 6
 '''
@@ -13,4 +14,5 @@ def digit_sum_until_one(n):
     return n
 
 print(digit_sum_until_one(987))
+
 
