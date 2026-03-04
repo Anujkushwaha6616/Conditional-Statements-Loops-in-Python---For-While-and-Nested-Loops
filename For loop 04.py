@@ -1,6 +1,5 @@
 """
 Output:
-
 0 1 2 3 4 
 0 1 2 3 
 0 1 2
@@ -14,3 +13,4 @@ for i in range (n, 0, -1):
         print("j" , end=" ")
 
     print()    
+
