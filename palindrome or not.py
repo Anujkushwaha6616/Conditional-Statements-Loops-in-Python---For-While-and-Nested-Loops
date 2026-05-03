@@ -1,3 +1,4 @@
+#check the given number is palindrome or not(Trur & False)
 n = int(input("Enter number:"))
 num = n
 result = 0
