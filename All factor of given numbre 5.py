@@ -1,4 +1,5 @@
 #find all factors of the given number
+
 n = int(input("Enter to gert factor of given number:"))
 num = n
 result =[]
