@@ -1,3 +1,4 @@
+#Check the given number is armstrong or not 
 n = int(input("enter number to check armstrong or not:"))
 num = n
 result = 0 
