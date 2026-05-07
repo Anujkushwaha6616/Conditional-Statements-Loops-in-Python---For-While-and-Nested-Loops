@@ -1,4 +1,5 @@
 #Extraction of digits which is provided by user.
+
 n = int(input("enter number : "))
 num = n
 #While loop
